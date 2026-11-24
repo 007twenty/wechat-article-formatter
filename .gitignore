@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地临时文件
+resp.json
+created.json
+
+# PWA 构建产物（由 make_icons.py 与 build.py 生成）
+pwa/icon-*.png
+pwa/apple-touch-icon.png
+pwa/index.html
+pwa/manifest.webmanifest
+pwa/sw.js
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
